@@ -1,0 +1,1 @@
+function addUrlParam(e,n,t){var a=n+"="+t,r=e.replace(new RegExp("(&|\\?)"+n+"=[^&|#]*"),"$1"+a);return r===e&&(r=-1!=e.indexOf("?")?e.split("?")[0]+"?"+a+"&"+e.split("?")[1]:-1!=e.indexOf("#")?e.split("#")[0]+"?"+a+"#"+e.split("#")[1]:e+"?"+a),r}function myFunction(){var e=document.getElementById("myText").value;result1.value=addUrlParam(e,"tag","sambitsd-21")}
